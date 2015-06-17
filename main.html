@@ -1,0 +1,11 @@
+<div class="container" ng-controller="UsersController">
+	<div class="columns six form">
+		<h3> Register </h3>
+		<input ng-model="user.first_name" type="text" placeholder="First Name">
+		<input ng-model="user.last_name" type="text" placeholder="Last Name">
+		<input ng-model="user.email" type="text" placeholder="Email">
+		<input ng-model="user.password" type="text" placeholder="Password">
+		<input ng-model="user.password_confirmation" type="text" placeholder="Password Confirmation">
+		<input ng-click="add_user()" class="button-primary" type="submit" value="Register">
+	</div>
+</div>
